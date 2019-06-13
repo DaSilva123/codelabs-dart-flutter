@@ -1,0 +1,10 @@
+class Bicicleta  {
+  int cadencia;
+  int velocidade;
+  int engrenagem;
+}
+
+void main() {
+  
+  
+}
