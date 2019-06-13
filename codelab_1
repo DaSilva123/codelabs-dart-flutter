@@ -3,6 +3,8 @@ class Bicicleta {
   int velocidade;
   int engrenagem;
   Bicicleta(this.cadencia, this.velocidade, this.engrenagem);
+  @override
+  String toString() => 'bicicleta: $velocidade km/h';
 }
 
 void main() {
