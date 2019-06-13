@@ -1,14 +1,11 @@
-class Bicicleta  {
+class Bicicleta {
   int cadencia;
   int velocidade;
   int engrenagem;
-  Bicicleta (this.cadencia, this.velocidade, this.engrenagem);
+  Bicicleta(this.cadencia, this.velocidade, this.engrenagem);
 }
 
-
 void main() {
-  
-  
- 
-  
+  var bike = Bicicleta(2, 0, 1);
+  print(bike);
 }
