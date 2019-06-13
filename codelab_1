@@ -1,13 +1,15 @@
 class Bicicleta {
   int cadencia;
-  int velocidade;
+  int _velocidade = 0;
+  int get velocidade => _velocidade;
   int engrenagem;
-  Bicicleta(this.cadencia, this.velocidade, this.engrenagem);
+  Bicicleta(this.cadencia, this.engrenagem);
   @override
   String toString() => 'bicicleta: $velocidade km/h';
+  
 }
 
 void main() {
-  var bike = Bicicleta(2, 0, 1);
+  var bike = Bicicleta(2, 1);
   print(bike);
 }
